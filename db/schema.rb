@@ -16,8 +16,8 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "name"
     t.string "location"
     t.integer "costume_inventory"
-    t.integer "number_of_employees"
-    t.boolean "business"
+    t.integer "num_of_employees"
+    t.boolean "still_in_business"
     t.time "opening_time"
     t.time "closing_time"
   end
@@ -39,7 +39,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.boolean "family_friendly"
     t.date "opening_date"
     t.date "closing_date"
-    t.string "long_description"
+    t.string "description"
   end
 
 end
